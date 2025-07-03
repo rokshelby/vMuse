@@ -1,32 +1,15 @@
-img {
+.header-img {
 
     height: 200px;
 }
 
-#img1{
+header{
+text-align: center;
+}
+
+.smallAlbum{
     height: 100px;
     margin-bottom: 5px;
-}
-
-#img2{
-    height: 100px;
-
-}
-
-#img3{
-    height: 100px;
-}
-
-#img4{
-    height: 100px;
-}
-
-#img5{
-    height: 100px;
-}
-
-#img6{
-    height: 100px;
 }
 
 #outsideFilter{
@@ -41,9 +24,7 @@ img {
     gap: 10px;
 }
 
-input{
-margin-right: 5px;
-}
+
 
 #mostRecent{
     display: grid;
