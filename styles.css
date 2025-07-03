@@ -1,0 +1,54 @@
+img {
+
+    height: 200px;
+}
+
+#img1{
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+#img2{
+    height: 100px;
+
+}
+
+#img3{
+    height: 100px;
+}
+
+#img4{
+    height: 100px;
+}
+
+#img5{
+    height: 100px;
+}
+
+#img6{
+    height: 100px;
+}
+
+#outsideFilter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#filterObjects{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+input{
+margin-right: 5px;
+}
+
+#mostRecent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+
+
+}
