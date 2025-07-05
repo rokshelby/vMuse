@@ -1,10 +1,27 @@
 .header-img {
 
-    height: 200px;
+    height: 250px;
+    width: 100%;
 }
 
 header{
 text-align: center;
+}
+
+
+
+.view-my-library{
+    background-color: #06402B;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.view-my-library:hover{
+    background-color:#2eb774
 }
 
 .smallAlbum{
