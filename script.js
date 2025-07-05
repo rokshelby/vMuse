@@ -1,4 +1,6 @@
-
+function showMessage(){
+    alert("show message");
+}
 
   function openModal() {
     document.getElementById('myModal').style.display = 'block';

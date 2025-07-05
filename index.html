@@ -2,11 +2,20 @@
 <head>
     <meta charset = "UTF-8">
     <title>My Vinyl Museum</title>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <img class="header-img" src="pictures/IMG_8572.jpg" alt="image of users choice">
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span onclick="closeModal()" style="float:right;cursor:pointer;">&times;</span>
+            <h2>Popup Content</h2>
+            <p>peruse through</p>
+        </div>
+    </div>
+
+
     <h1>Hi, I'm Rakeem</h1>
     <p>
         My favorite genres are Rap and Hip-Hop<br>
@@ -40,6 +49,9 @@
     <footer>
 
     </footer>
+
+    <script src="script.js"></script>
+
 </body>
 
 </html>
