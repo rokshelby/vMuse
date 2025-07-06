@@ -1,10 +1,17 @@
-function showMessage(){
-    alert("show message");
-}
 
-  function openModal() {
-    document.getElementById('myModal').style.display = 'block';
-  }
-  function closeModal() {
-    document.getElementById('myModal').style.display = 'none';
-  }
+function openModal() {
+
+    const modal = document.getElementById('myModal');
+    modal.style.display = 'block';
+     setTimeout(() => {
+       modal.classList.add("show");
+     },10);
+}
+function closeModal() {
+    const modal = document.getElementById('myModal');
+    modal.classList.remove("show");
+
+    setTimeout(() => {
+        modal.style.display = "none";
+    }, 300);
+}

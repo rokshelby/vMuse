@@ -10,8 +10,19 @@
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span onclick="closeModal()" style="float:right;cursor:pointer;">&times;</span>
-            <h2>Popup Content</h2>
+            <h2>The Content</h2>
             <p>peruse through</p>
+
+            <div id="outsideFilter">
+                <label>Filter</label>
+                <div id="filterObjects">
+                    <label for="searchInput"></label><input type = "text" id="searchInput" placeholder="Filter Collection...">
+                    <input type = "button" onclick="alert('browse by artist')" value="Browse By Artist &#x2304">
+                    <input type = "button" onclick="alert('sort exhibit')" value="Sort Exhibit &#x2304">
+                </div>
+            </div>
+
+
         </div>
     </div>
 
@@ -22,19 +33,9 @@
         My Top Artists: Kid Cudi, Kanye, Lupe<br>
         Top Songs: Soundtrack to My Life, Little Weapon, Gone<br>
     </p>
-    <input type = "button" onclick="openModel()" class="view-my-library" value="View My Library">
+    <input type = "button" onclick="openModal()" class="view-my-library" value="View My Library">
     <hr>
-    <div id="outsideFilter">
 
-    <label>Filter</label>
-    <div id="filterObjects">
-
-
-
-    <input type = "button" onclick="alert('view my library')" value="Genre &#x2304">
-    <input type = "button" onclick="alert('view my library')" value="Sort By &#x2304">
-    </div>
-    </div>
     <hr>
 
     <div id="mostRecent">
